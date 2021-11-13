@@ -1,0 +1,208 @@
+body {
+	text-align: center;
+	background-color: sm;
+}
+
+#div-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 99%;
+	margin-left: 3%;
+	margin-bottom: 20px;
+}
+
+#btn-add {
+	font-family: monospace;
+	font-size: 20px;
+  	font-weight: 200;
+  	letter-spacing: 1px;
+  	padding: 13px 50px 13px;
+  	outline: 0;
+  	border: 1px solid black;
+  	cursor: pointer;
+  	position: relative;
+  	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+}
+
+.elem {
+	width: 80px;
+	height: 40px;
+	background: lightgray;
+	margin: 0 10px 10px 0;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	color: gray;
+}
+
+.elemHover {
+	width: 80px;
+	height: 40px;
+	background: dimgray;
+	margin: 0 10px 10px 0;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	color: black;
+	position: relative;
+    top: -5px; /* this will raise the element */
+}
+
+.elemGreen {
+	width: 80px;
+	height: 40px;
+	background: mediumseagreen;
+	margin: 0 10px 10px 0;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	color: gray;
+}
+
+.per {
+	width: 80px;
+	height: 40px;
+	/*background: lightgray;*/
+	margin: 0 10px 10px 0;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	color: gray;
+}
+
+.dot {
+	/*background: lightgray;*/
+	margin: 0 5px 5px 0;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	color: gray;
+}
+
+#title {
+	z-index: -1;
+
+	font-family: monospace;
+	font-size: 25px;
+  	font-weight: 200;
+  	letter-spacing: 1px;
+  	padding: 0px 50px 13px;
+  	outline: 0;
+  	/*border: 1px solid black;*/
+  	position: relative;
+  	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+}
+
+section {
+	display: flex;
+
+	font-family: monospace;
+	font-size: 25px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	padding: 13px 50px 13px;
+	outline: 0;
+	/*border: 1px solid black;*/
+	position: relative;
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+}
+
+section .col {
+	flex-direction: row;
+	width: 100%;
+	align-items: stretch;
+}
+
+.set-holder {
+	margin-top: 20px;
+	/*background: black;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.info-holder {
+	margin-top: 20px;
+}
+
+.sum-holder {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttons-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slider {
+	margin-bottom: 1px;
+	margin-left : 1px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+
+	-webkit-appearance: none;
+	width: 20%;
+	height: 10px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slide-holder {
+	margin-top: 1px;
+    margin-left : 1px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: green;
+    position: fixed;
+    bottom: 0;
+}
+
+.buttons {
+	margin-left: 20px;
+}
+
+#reset {
+	font-family: monospace;
+	font-size: 20px;
+  	font-weight: 200;
+  	letter-spacing: 1px;
+  	padding: 13px 50px 13px;
+  	outline: 0;
+  	border: 1px solid black;
+  	cursor: pointer;
+  	position: relative;
+  	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+}
